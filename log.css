@@ -1,0 +1,230 @@
+
+body{
+	
+	background-color: #e5e5f7;
+	opacity: 0.9;
+	background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 500px ), repeating-linear-gradient( rgb(53, 133, 139), rgb(79, 189, 186) );
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	
+	
+}
+
+img{
+	transition: transform 1s 0.5s;
+}
+img:hover {
+z-index:1;
+opacity: 1;
+position: relative;
+transform: scale(2);
+
+} 
+#page {
+	
+	width: 1370;
+	margin: 0px auto;
+	padding: 50px 40px;
+	color: #8F8F8F;
+	
+}
+
+
+#wide-content {
+	padding: 50px;
+	border: 10px solid #f1f1f1;
+	box-shadow:2px 2px rgb(7, 34, 39);
+	
+}
+  
+#wide-content h2 {
+	padding: 0px 0px 20px 0px;
+	letter-spacing: -1px;
+	font-size: 36px;
+	color: #222222;
+}
+
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: -40px;
+	justify-content: center;
+	align-items: center;
+}
+.flex-container a{
+	text-decoration: none;
+	border: 0;
+	box-shadow:2px 2px rgb(7, 34, 39);
+	border-radius: 50%;
+	background-color: rgb(53, 133, 139);
+	margin:2em;
+	transition: background-color 1s;
+}
+
+.flex-container a:hover{
+	background-color:rgb(7, 34, 39) ;
+}
+
+
+.flex-container a div {
+	
+	
+	padding: 25px;
+	font-size: 25px;
+	/* color: rgb(51, 48, 48); */
+	color: white;
+	text-align: center;
+	align-content: center;
+	border-radius: inherit;
+	height: 100px;
+	width: 100px;
+	
+	line-height: 1em;
+	
+}
+
+.logo {
+	  height: -20px;
+
+}
+
+#head-text{
+	margin-bottom: -20px;
+	color: rgb(7, 34, 39);
+}
+.navbar{
+	display: flex;
+	flex-direction: row;
+	justify-content:left;
+	width: 100%;
+	background-color: rgb(7, 34, 39);
+	color: rgb(174, 254, 255);
+	
+}
+
+
+.navbar #nav-element{
+	background-color: inherit;
+	padding-left: 1em;
+	padding-right:1em;
+	transition: color 1s;
+	transition: background-color 1s;
+}
+.navbar div a{
+	text-decoration:none;
+	color: inherit;
+}
+#homeid{
+	background-color:rgb(174, 254, 255) ;
+	padding-left: 2em;
+	padding-right:2em;
+
+}
+#homeid a{
+	color:rgb(7, 34, 39)	
+}
+
+.navbar #nav-element:hover{
+	background-color: rgb(53, 133, 139);
+	color: rgb(7, 34, 39);
+}
+
+
+hr{
+	background-color: rgb(7, 34, 39);
+	border-collapse: collapse;
+}
+
+form{
+	color:rgb(7, 34, 39);
+}
+
+#footer{
+	position:relative;
+	bottom: 0;
+	width: 99%;
+	
+
+}
+
+
+colors{
+	color:rgb(7, 34, 39)
+	rgb(53, 133, 139)
+	rgb(79, 189, 186)
+	rgb(174, 254, 255)
+}
+
+
+ 
+
+/* 
+______________________
+ */
+
+ /*  CSS For Profile   */
+.bigbox{
+	display: flex;
+	flex-direction:column;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+	
+  }
+  
+  li {
+	float: left;
+	background-color:rgb(53, 133, 139) ;
+  }
+  
+  li a {
+	display: block;
+	color:rgb(7, 34, 39);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+	background-color:rgb(174, 254, 255);
+  }
+  
+  .main_content_header{
+	display: none;
+	/* display: flex; */
+	flex-direction:row;
+	text-decoration: none;
+  }
+ .pic{
+	 width: 40%;
+ }
+
+ .pic-name,.price,.owner,.artist{
+	 width:20%;
+ }
+
+ .c_pic{
+width: 30%;
+ }
+ .c_pic-name,.c_price,.c_owner,.delet,.update,.c_artist{
+	width:14%;
+	
+}
+
+ .main_content{
+	display: none;
+	/* display: flex; */
+	flex-direction:row;
+ }
+
+ .main_content div a,.main_content_header div a{
+	 text-decoration: none;
+	 color:rgb(7, 34, 39);
+ }
